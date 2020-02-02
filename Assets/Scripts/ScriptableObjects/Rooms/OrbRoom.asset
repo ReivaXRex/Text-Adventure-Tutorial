@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8c379bd21fe5bb4e9975a75702f45e7, type: 3}
+  m_Name: OrbRoom
+  m_EditorClassIdentifier: 
+  description: The dungeon door slams shut behind you. You are in a vast, dark hall.
+    An altar with a skull engraving stands in the center of hall.
+  roomName: orb room
+  exits:
+  - keyString: south
+    exitDescription: 'There is a door to the South, small rays of light peek through
+      the gaps in the wood. '
+    valueRoom: {fileID: 11400000, guid: f6e74714d9db9cd4a806f1813b5f54c1, type: 2}
+  interactableObjectsInRoom: []
